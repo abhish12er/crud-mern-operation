@@ -35,12 +35,12 @@ Features
 
     If no profile image is uploaded, a default dummy image is used as a placeholder.
 
-   Technologies Used
+Technologies Used
 
-    Frontend: React, Ant Design, SWR, Axios
-    Backend: Node.js, Express.js
-    Database: MongoDB
-    Styling: Tailwind CSS
+  Frontend: React, Ant Design, SWR, Axios
+  Backend: Node.js, Express.js
+  Database: MongoDB
+  Styling: Tailwind CSS
 
    Getting Started
      Prerequisites
