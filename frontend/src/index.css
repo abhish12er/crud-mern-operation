@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    width: 95%;
+    margin-left: 10%;
+}
+
+/* Body and Background Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e1bee7, #ffccbc);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Styling */
+  .min-h-screen {
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width for large screens */
+    padding: 20px; /* Add padding for content */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Header Styling */
+  h1 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+   margin-left: 35%;
+  }
+  
+  /* Button Styling */
+  button {
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button Classes */
+  .bg-green-400 {
+    background: linear-gradient(45deg, #66bb6a, #43a047);
+  }
+  
+  .bg-blue-600 {
+    background: linear-gradient(45deg, #42a5f5, #1e88e5);
+  }
+  
+  .bg-rose-600 {
+    background: linear-gradient(45deg, #f48fb1, #ec407a);
+  }
+  
+  .text-white {
+    color: white !important;
+  }
+  
+  /* Form and Input Styling */
+  input,
+  textarea,
+  select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border 0.3s;
+    width: 100%; /* Full width for better responsiveness */
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #1e90ff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(30, 144, 255, 0.2);
+  }
+  
+  /* Modal Header */
+  .ant-modal-header {
+    background-color: #1e88e5;
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Table Styling */
+  .ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #1e88e5;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .ant-table-tbody > tr > td {
+    transition: background-color 0.3s;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #f0f8ff;
+  }
+  
+  /* Image Styling */
+  .rounded-full {
+    border-radius: 50%;
+  }
+  
+  /* Custom styling for modal buttons */
+  .w-full {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem; /* Adjust heading size */
+    }
+  
+    .rounded {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .min-h-screen {
+      width: 95%; /* Adjust width for very small screens */
+      padding: 10px; /* Add padding for small screens */
+    }
+  }
+  
