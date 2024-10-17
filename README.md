@@ -34,3 +34,17 @@ Features
 7. Dummy Image Placeholder
 
     If no profile image is uploaded, a default dummy image is used as a placeholder.
+
+   Technologies Used
+
+    Frontend: React, Ant Design, SWR, Axios
+    Backend: Node.js, Express.js
+    Database: MongoDB
+    Styling: Tailwind CSS
+
+   Getting Started
+     Prerequisites
+
+       Node.js and npm installed
+       MongoDB running locally or via a cloud provider
+       Ant Design library
